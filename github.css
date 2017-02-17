@@ -1,0 +1,84 @@
+/*Alan's Github*/
+
+body {
+      background-color: #FFFFFF;
+      color: #000000;
+      border: none;
+      margin-left:0px;
+      font-family: Arial, Helvetica, sans-serif;
+}
+  
+header img.headerphoto {
+    float: right;
+    
+    margin: 0 0 10px 10px;
+}
+
+h1 {
+    text-align:center;
+    color:green;
+}
+
+h3 {
+    text-align:center;
+    color: none;
+}
+
+nav {
+     display: inline-block;
+     width: 20%;
+     height: auto;
+     background-color:lightgrey;
+     padding:0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 0px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+nav a.active {
+    background-color: green; 
+    color: #FFFFFF;
+}
+
+a {
+   margin: 0px 25px 0px 25px;
+}
+
+a:link, a:visited {
+  background-color: #FFFFFF;
+  color: green;
+  border:1px solid green; 
+  border-radius:20px; 
+  padding:5px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: green;
+  color: #FFFFFF;
+}
+
+a:active {
+  background-color: lightgreen;
+  color: #FFFFFF;
+}
+
+h2 {
+   color:green;
+   margin-left: 20px;
+}
+
+
+footer {
+    width:100%;
+     background-color:lightgrey;
+     padding: 0px 0px 0px 20px; 
+    
+}
