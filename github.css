@@ -4,14 +4,19 @@ body {
       background-color: #FFFFFF;
       color: #000000;
       border: none;
-      margin-left:0px;
+      margin:0px;
       font-family: Arial, Helvetica, sans-serif;
 }
-  
-header img.headerphoto {
+ header {
+    display:inline-block; 
+    position: static;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+ 
+header img {
     float: right;
-    
-    margin: 0 0 10px 10px;
+    margin: 0px 10px 10px 10px;
 }
 
 h1 {
@@ -24,32 +29,31 @@ h3 {
     color: none;
 }
 
-nav {
-     display: inline-block;
-     width: 20%;
-     height: auto;
-     background-color:lightgrey;
-     padding:0px;
-}
 
-ul{
+ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
+    width: 125px;     
+    background-color:lightgrey;
+
 }
+
 li {
-    padding: 0px 0px 10px 0px;
-    margin: 10px 0px 10px 0px;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    text-align:center;
 }
 
-nav a.active {
-    background-color: green; 
-    color: #FFFFFF;
+ul a {
+    display: block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align:center;
 }
 
-a {
-   margin: 0px 25px 0px 25px;
-}
+
 
 a:link, a:visited {
   background-color: #FFFFFF;
@@ -61,12 +65,12 @@ a:link, a:visited {
 }
 
 a:hover {
-  background-color: green;
+  background-color: lightgreen;
   color: #FFFFFF;
 }
 
 a:active {
-  background-color: lightgreen;
+  background-color: yellow;
   color: #FFFFFF;
 }
 
